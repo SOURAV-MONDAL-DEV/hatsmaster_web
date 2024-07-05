@@ -67,13 +67,13 @@ export default function NavBar() {
                 <Link href="/">Home</Link>
               </li>
               <li className="text-gray-600 hover:text-blue-600">
-                <Link href="/blog">Blog</Link>
+                <Link href="/product">Product</Link>
               </li>
               <li className="text-gray-600 hover:text-blue-600">
-                <Link href="/about-us">About US</Link>
+                <Link href="/about">About</Link>
               </li>
               <li className="text-gray-600 hover:text-blue-600">
-                <Link href="/contact-us">Contact US</Link>
+                <Link href="/contact">Contact</Link>
               </li>
             </ul>
           </div>
