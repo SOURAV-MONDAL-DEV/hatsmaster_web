@@ -1,8 +1,8 @@
 import React from 'react';
 import Image from "next/image";
 import Link from "next/link";
-import bannerImg from "@/images/banner.jpg";
-import rotatingCap from "@/images/RotatingPngCap.gif";
+import bannerImg from "@/images/Banner/banner.jpg";
+import rotatingCap from "@/images/CapsAndHats/Animeted/RotatingPngCap.gif";
 const Banner = () => {
   return (
     <div

@@ -15,7 +15,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center justify-between">
             <div className="flex items-center justify-center">
-            <img src={logo.src} className="h-24 w-auto" alt="My Logo" />
+              <img src={logo.src} className="h-24 w-auto" alt="My Logo" />
               <h1 className="text-xl text-black font-bold">HATSMASTER</h1>
             </div>
             <div className="hidden md:block">
