@@ -1,11 +1,12 @@
 import AboutUs from "@/components/AboutUs/aboutUs";
-import ContactUs from "@/components/ContactUs/contactUs";
+import ContactUsBanner from "@/components/ContactUs/ContactUsBanner";
+import ContactUsDetails from "@/components/ContactUs/ContactUsDetails";
 
 export default function Contact() {
   return (
   <div>
-    <h1 className="text-3xl font-bold underline">Contact Page</h1>
-    <ContactUs/>
+    <ContactUsBanner/>
+    <ContactUsDetails/>
   </div>
 );
 }
