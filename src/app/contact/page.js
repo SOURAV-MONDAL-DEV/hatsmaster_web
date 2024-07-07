@@ -1,4 +1,4 @@
-import AboutUs from "@/components/AboutUs/aboutUs";
+import AboutUs from "@/components/AboutUs/aboutUsBanner";
 import ContactUsBanner from "@/components/ContactUs/ContactUsBanner";
 import ContactUsDetails from "@/components/ContactUs/ContactUsDetails";
 

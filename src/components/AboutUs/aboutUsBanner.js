@@ -5,7 +5,7 @@ import stitching from "@/images/Delivery/stitching.png"
 import ship from "@/images/Delivery/ship.jpg"
 import crossdocking from "@/images/Delivery/cross-docking.jpg"
 
-export default function AboutUs() {
+export default function AboutUsBanner() {
   return (
     // <div>
     //   <h1 className="text-3xl font-bold underline">About Us section</h1>
@@ -28,17 +28,7 @@ export default function AboutUs() {
           a leading exporter and manufacturer of high-quality headwear. 
           Our passion for fashion and commitment to excellence drives us to deliver the best products in the industry.
         </p>
-        <div className="flex flex-wrap justify-center items-center space-x-6 md:space-x-4 lg:space-x-6">
-          <div className="w-24 h-24 md:w-32 md:h-32 lg:w-48 lg:h-48 rounded-full overflow-hidden border-4 border-highlight animate-spin-slow mb-4 md:mb-0">
-            <Image src={stitching} alt="Hat 1" width={192} height={192} />
-          </div>
-          <div className="w-24 h-24 md:w-32 md:h-32 lg:w-48 lg:h-48 rounded-full overflow-hidden border-4 border-highlight animate-spin-slow mb-4 md:mb-0">
-            <Image src={ship} alt="Hat 2" width={192} height={192} />
-          </div>
-          <div className="w-24 h-24 md:w-32 md:h-32 lg:w-48 lg:h-48 rounded-full overflow-hidden border-4 border-highlight animate-spin-slow mb-4 md:mb-0">
-            <Image src={crossdocking} alt="Hat 3" width={192} height={192} />
-          </div>
-        </div>
+        
       </div>
     </div>
     </div>
