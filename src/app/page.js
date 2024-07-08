@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <section>
       <Banner></Banner>
-      <WaveBanner/>
+      {/* <WaveBanner/> */}
     </section>
   );
 }
