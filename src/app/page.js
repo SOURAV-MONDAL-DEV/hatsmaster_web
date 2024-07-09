@@ -11,8 +11,8 @@ export default function Home() {
     <section>
       <AutoCarousel/>
       {/* <Carousel/> */}
-      <Banner></Banner>
-      <RoundCarousel/>
+      {/* <Banner></Banner> */}
+      {/* <RoundCarousel/> */}
       {/* <WaveBanner/> */}
     </section>
   );
