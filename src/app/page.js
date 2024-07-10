@@ -6,12 +6,14 @@ import RoundCarousel from "@/components/RoundCarousel/RoundCarousel";
 import Carousel from "@/components/Carousel/carousel";
 import AutoCarousel from "@/components/Carousel/AutoCarousel/autoCarousel";
 import ProductCategory from "@/components/ProductCategory/ProductCategory";
+import AboutSection from "@/components/AboutUs/AboutSection";
 
 export default function Home() {
   return (
     <section>
       <AutoCarousel/>
       <ProductCategory/>
+      <AboutSection/>
       {/* <Carousel/> */}
       {/* <Banner></Banner> */}
       {/* <RoundCarousel/> */}
