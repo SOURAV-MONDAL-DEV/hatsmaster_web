@@ -18,7 +18,7 @@ const Banner = () => {
             <p className="text-orange-300 text-md mt-2">
               EXCEPTIONAL QUALITY FROM HATSMASTER.
             </p>
-            <button class="bg-[#fc0303] text-white text-2xl  py-4 px-8 mt-8 rounded-xs transition duration-300 ease-in-out hover:bg-red-700 ">
+            <button className="bg-[#fc0303] text-white text-2xl  py-4 px-8 mt-8 rounded-xs transition duration-300 ease-in-out hover:bg-red-700 ">
               Read More
             </button>
           </div>
