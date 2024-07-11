@@ -7,6 +7,10 @@ import Carousel from "@/components/Carousel/carousel";
 import AutoCarousel from "@/components/Carousel/AutoCarousel/autoCarousel";
 import ProductCategory from "@/components/ProductCategory/ProductCategory";
 import AboutSection from "@/components/AboutUs/AboutSection";
+import ProductSlider from "@/components/Carousel/ProductSlider/ProductSlider";
+import HotProducts from "@/components/HotProducts/HotProducts";
+import RotatingBox from "@/components/RotatingBox/RotatingBox";
+import OurSpecialty from "@/components/OurSpecialty/OurSpecialty";
 
 export default function Home() {
   return (
@@ -14,6 +18,11 @@ export default function Home() {
       <AutoCarousel/>
       <ProductCategory/>
       <AboutSection/>
+      <HotProducts/>
+      <OurSpecialty/>      
+      <ProductCategory/>
+
+
       {/* <Carousel/> */}
       {/* <Banner></Banner> */}
       {/* <RoundCarousel/> */}
