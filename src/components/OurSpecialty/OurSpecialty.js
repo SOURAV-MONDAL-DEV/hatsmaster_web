@@ -36,16 +36,7 @@ const OurSpecialty = () => {
       <div className=" ">
         <div className=" md:grid md:grid-cols-2 lg:grid-cols-4 justify-center">
           {specialties.map((specialty, index) => (
-            <div
-              key={index}
-              className="bg-white group relative "
-            >
-              <RotatingBox specialty={specialty} />
-              <div className="px-2 text-center bg-white max-h-0 overflow-hidden transition-all duration-1000 ease-in-out group-hover:max-h-96 absolute z-20 ">
-                <div className=" w-56 h-1 bg-red-600 mx-auto mt-16 mb-8 "> </div>
-                <p className="mb-4 text-lg text-gray-800">{specialty.description}</p>
-              </div>
-            </div>
+            <RotatingBox key={index} specialty={specialty} />
           ))}
         </div>
       </div>
