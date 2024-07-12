@@ -15,7 +15,7 @@ const RotatingBox = () => {
       let rotation = 0;
   
       const rotate = () => {
-        rotation += 0.2; // Decreased value to slow down the rotation
+        rotation += 0.3; // Decreased value to slow down the rotation
         element.style.transform = `rotate(${rotation}deg)`;
         requestAnimationFrame(rotate);
       };
@@ -24,15 +24,15 @@ const RotatingBox = () => {
     }, []);
   
     return (
-      <div className="flex justify-center items-center  m-auto p-1 border border-gray-300">
+      <div className="flex justify-center items-center  m-auto p-1 ">
         <div className="relative w-60 h-60 flex items-center justify-center bg-white ">
           <div
             ref={rotatingBorderRef}
             className="absolute inset-0 border-[4px] border-dashed border-gray-300 rounded-full"
           ></div>
-          <div className="z-10 text-center">
-            <Image src={in10} alt="Icon" width={50} height={50} />
-            <p className="mt-4 text-lg font-semibold">Your Text Here</p>
+          <div className=" flex flex-col items-center justify-center z-10 text-center">
+            <Image src={in10} alt="Icon" width={64} />
+            <p className="mt-4 text-xl font-semibold">Your Text Here</p>
           </div>
         </div>
       </div>
