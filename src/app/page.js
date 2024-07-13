@@ -11,6 +11,7 @@ import ProductSlider from "@/components/Carousel/ProductSlider/ProductSlider";
 import HotProducts from "@/components/HotProducts/HotProducts";
 import RotatingBox from "@/components/RotatingBox/RotatingBox";
 import OurSpecialty from "@/components/OurSpecialty/OurSpecialty";
+import WhyChooseUs from "@/components/WhyChooseUs/WhyChooseUs";
 
 export default function Home() {
   return (
@@ -19,8 +20,8 @@ export default function Home() {
       <ProductCategory/>
       <AboutSection/>
       <HotProducts/>
-      <OurSpecialty/>      
-      <ProductCategory/>
+      <OurSpecialty/>    
+      <WhyChooseUs/>  
 
 
       {/* <Carousel/> */}
