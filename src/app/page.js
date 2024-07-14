@@ -13,6 +13,7 @@ import RotatingBox from "@/components/RotatingBox/RotatingBox";
 import OurSpecialty from "@/components/OurSpecialty/OurSpecialty";
 import WhyChooseUs from "@/components/WhyChooseUs/WhyChooseUs";
 import HotNews from "@/components/HotNews/HotNews";
+import GetInTouch from "@/components/ContactUs/GetInTouch";
 
 export default function Home() {
   return (
@@ -23,7 +24,8 @@ export default function Home() {
       <HotProducts/>
       <OurSpecialty/>    
       <WhyChooseUs/>
-      <HotNews/>  
+      <HotNews/>
+      <GetInTouch/>  
 
 
       {/* <Carousel/> */}
